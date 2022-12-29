@@ -30,6 +30,18 @@ $panel-padding: $basic-padding * 2;
     justify-content: space-between;
   }
 
+  &-toolbar__actions-primary {
+    display: flex;
+    align-items: center;
+    gap: $basic-padding * 2;
+  }
+
+  &-toolbar__actions-archive{
+    display: flex;
+    align-items: center;
+    gap: $basic-padding;
+  }
+
   &-pagination {
     margin: $panel-padding;
   }
