@@ -142,6 +142,11 @@ $dropdown-size: $field-height - 10;
     font-weight: bold;
   }
 
+  &CurrentDate {
+    background-color: $calendar-date-current-bgcolor;
+    color: $calendar-date-seleted-textcolor;
+  }
+
   &YearLabel {
     background-color: $calendar-year-label-bgcolor;
     display: table;
